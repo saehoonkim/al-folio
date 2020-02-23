@@ -16,15 +16,16 @@
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
+        {% assign trim_last = author.last | remove: "<sup>*</sup>" %}
         {% if forloop.length == 1 %}
-          {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
+          {% if trim_last == site.scholar.last_name and author.first == site.scholar.first_name %}
             <em>{{author.first}} {{author.last}}</em>
           {% else %}
             {{author.first}} {{author.last}}
           {% endif %}
         {% else %}
           {% unless forloop.last %}
-            {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
+            {% if trim_last == site.scholar.last_name and author.first == site.scholar.first_name %}
               <em>{{author.first}} {{author.last}}</em>,
             {% else %}
               {% if site.data.coauthors[author.last] %}
@@ -34,7 +35,7 @@
               {% endif %}
             {% endif %}
           {% else %}
-            {% if author.last == site.scholar.last_name and author.first == site.scholar.first_name %}
+            {% if trim_last == site.scholar.last_name and author.first == site.scholar.first_name %}
               <em>{{author.last}}, {{author.first}}</em>,
             {% else %}
               {% if site.data.coauthors[author.last] %}
