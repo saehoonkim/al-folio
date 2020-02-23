@@ -14,7 +14,7 @@ social: true
 
 I am an AI research scientist at <a href="http://kakaobrain.com">
 KakaoBrain</a>.
-Prior to joining KakaoBrain, I had led a machine learning team at AITRICS
+Prior to joining KakaoBrain, I had led a machine learning team at <a href="http://aitrics.com">AITRICS</a>
 (medical AI startup).
 
 I finished my Ph.D. and B.S. degrees in the <a href="http://cse.postech.ac.kr">Department of Computer Science and Engineering</a> at
