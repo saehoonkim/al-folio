@@ -75,6 +75,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
+  first_name: Saehoon
   last_name: Kim
 
   style: apa

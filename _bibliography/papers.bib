@@ -1,66 +1,202 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{iclr = {International Conference on Learning Representations (ICLR),}}
+@string{aaai = {AAAI Conference on Artificial Intelligence (AAAI),}}
+@string{icml = {International Conference on Machine Learning (ICML),}}
+@string{neurips = {Annual Conference on Neural Information Processing System (NeurIPS),}}
+@string{cvpr = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR),}}
+@string{eccv = {European Conference on Computer Vision (ECCV),}}
+@string{icdm = {IEEE International Conference on Data Mining (ICDM),}}
+@string{sigir = {ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR),}}
+@string{wsdm = {ACM International WSDM Conference (WSDM),}}
+@string{cc = {Critical Care,}}
+@string{spl = {IEEE Signal Processing Letters,}}
+@string{tweb = {ACM Transcations on the Web,}}
+@string{wacv = {IEEE Winter Conference on Applications of Computer Vision (WACV),}}
+@string{icassp = {IEEE International Conference on Acoustics, Speech, and Signal Processing
+                  (ICASSP),}}
 
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{yoon2020iclr,
+    author = {Yoon, Jaehong and Kim, Saehoon and
+              Yang, Eunho and Hwang, Sung Ju},
+    title  = {Scalable and Order-robust Continual Learning
+              with Additive Parameter Decomposition},
+    booktitle = iclr,
+    year   = 2020
 }
 
-@article{einstein1950meaning,
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{liu2019iclr,
+    author = {Liu, Yanbin and Lee, Juho and Park, Minseop and Kim, Saehoon
+              and Yang, Eunho and Hwang, Sung Ju and Yang, Yi},
+    title  = {Learning to Propagate Labels: Transductive Propagation
+              Network for Few-shot Learning},
+    booktitle = iclr,
+    year   = 2019
 }
 
-@article{PhysRev.47.777,
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf}
+@article{Kim2019cc,
+    author = {Kim, Soo Yeon and Kim, Saehoon and Cho, Joongbum and Sol,
+              In Suk and Sung, Youngchul and Cho, Inhyeok and
+              Park, Minseop and Jang, Haerin and Kim, Yoon Hee and
+              Kim, Kyung Won and Sohn, Myung Hyun},
+    title = {A Deep Learning Model for Real-time Mortality Prediction
+             in Critically-ill Children},
+    journal = cc,
+    year = 2019
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{kim2019aml,
+    author = {Kim, Jungtaek and McCourt, Michael and You, Tackgeun
+              and Kim, Saehoon and Choi, Seungjin},
+    title  = {Bayesian Optimization over Sets},
+    booktitle = {ICML'19 Workshop on Automated Machine Learning},
+    year   = 2019
 }
 
-@article{einstein1905movement,
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{Park2018meta,
+    author = {Park, Minseop and Kim, Saehoon and Kim, Jungtaek
+              and Liu, Yanbin and Choi, Seungjin},
+    title  = {TAEML: Task-Adaptive Ensemble of Meta-Learners},
+    booktitle = {NeurIPS'18 Workshop on Meta-Learning},
+    year   = 2018
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{lee2018nips,
+    author = {Lee, Hae Beom and Lee, Juho and Kim, Saehoon
+              and Yang, Eunho and Hwang, Sung Ju},
+    title  = {DropMax: Adaptive Variational Softmax},
+    booktitle = neurips,
+    year   = 2018
+}
+
+@inproceedings{Heo2018nips,
+    author = {Heo, Jay and Lee, Hae Beom and Kim, Saehoon
+              and Lee, Juho and Kim, Kwang Joon and Yang, Eunho
+              and Hwang, Sung Ju},
+    title  = {Uncertainty-Aware Attention for Reliable
+              Interpretation and Prediction},
+    booktitle = neurips,
+    year   = 2018
+}
+
+@article{Kim2018spl,
+    author = {Kim, Saehoon and Choi, Seungjin},
+    title  = {Sparse Circulant Binary Embedding:
+              An Asymptotic Analysis},
+    journal = spl,
+    year   = 2018
+}
+
+@inproceedings{Kim2018aaai,
+    author = {Kim, Saehoon and Kim, Jungtaek and Choi, Seungjin},
+    title  = {On the Optimal Bit Complexity of Circulant Binary Embedding},
+    booktitle = aaai,
+    year   = 2018
+}
+
+@inproceedings{Hwang2018aaai,
+    author = {Hwang, Yoonho and Baek, Moo-yeol and Kim, Saehoon
+              and Han, Bohyung and Ahn, Hee-kap},
+    title  = {Product Qunatized Translations for Fast Nearest Neighbor Search},
+    booktitle = aaai,
+    year   = 2018
+}
+
+@inproceedings{Kim2017aaai,
+    author = {Kim, Saehoon and Choi, Seungjin},
+    title  = {Binary Embedding with Additive Homogeneous Kernels},
+    booktitle = aaai,
+    year   = 2017
+}
+
+@inproceedings{Kim2017bo,
+    author = {Kim, Jungtaek and Kim, Saehoon and Choi, Seungjin},
+    title  = {Learning to Transfer Initializations for Bayesian
+              Hyperparameter Optimization},
+    booktitle = {NeurIPS'17 Workshop on Bayesian Optimization},
+    year   = 2017
+}
+
+@article{Hwang2016tweb,
+    author = {Hwang, Seungwon and Kim, Saehoon and He, Yuxiong
+              and Elnikety, Sameh and Choi, Seungjin},
+    title  = {Prediction and Predictability for Search
+              Query Acceleration},
+    journal = tweb,
+    year   = 2016
+}
+
+@inproceedings{Kim2015cvpr,
+    author = {Kim, Saehoon and Choi, Seungjin},
+    title  = {Bilinear Random Projections for Locality-Sensitive
+              Binary Codes},
+    booktitle = cvpr,
+    year   = 2015
+}
+
+@inproceedings{Kim2015wsdm,
+    author = {Kim, Saehoon and He, Yuxiong and Hwang, Seungwon
+              and Elnikety, Sameh and Choi, Seungjin},
+    title  = {DDS Prediction: Reducing Extreme Tail Latency in Web Search},
+    booktitle = wsdm,
+    year   = 2015
+}
+
+@inproceedings{Kim2015wacv,
+    author = {Kim, Saehoon and Wang, Xin-Jing and Zhang, Lei and Choi, Seungjin},
+    title  = {Near-Duplicate Image Discovery on One Billion Images},
+    booktitle = wacv,
+    year   = 2015
+}
+
+@inproceedings{Jeon2014sigir,
+    author = {Jeon, Myeongjae and Kim, Saehoon and Hwang, Seung-won
+              and He, Yuxiong and Elnikety, Sameh and Cox, L. Alex
+              and Rixner, Scott},
+    title  = {Predictive Parallelization: Taming Tail Latencies in Web Search},
+    booktitle = sigir,
+    year   = 2014
+}
+
+@inproceedings{Kim2013icassp,
+    author = {Kim, Saehoon and Choi, Seungjin},
+    title  = {Multi-view Anchor Graph Hashing},
+    booktitle = icassp,
+    year   = 2013
+}
+
+@inproceedings{Yun2012icdm,
+    author = {Yun, Jeong-Min and Kim, Saehoon and Choi, Seungjin},
+    title  = {Hashing with Generalized Nystr\"om Approximation},
+    booktitle = icdm,
+    year   = 2012
+}
+
+@inproceedings{Kang2012icdm,
+    author = {Kang, Yoonseop and Kim, Saehoon and Choi, Seungjin},
+    title  = {Deep Learning to Hash with Multiple Representations},
+    booktitle = icdm,
+    year   = 2012
+}
+
+@inproceedings{Kim2012eccv,
+    author = {Kim, Saehoon and Kang, Yoonseop and Choi, Seungjin},
+    title  = {Sequential Spectral Learning to Hash with Multiple Representations},
+    booktitle = eccv,
+    year   = 2012
+}
+
+@inproceedings{Kim2011icdm,
+    author = {Kim, Saehoon and Choi, Seungjin},
+    title  = {Semi-Supervised Discriminant Hashing},
+    booktitle = icdm,
+    year   = 2011
+}
+
+@inproceedings{Kim2010mlsp,
+    author = {Kim, Saehoon and Choi, Seungjin},
+    title  = {Local Dimensionality Reduction for Multiple Instance Learning},
+    booktitle = {IEEE International Workshop on Machine Learning for Signal Processing},
+    year   = 2010
 }
