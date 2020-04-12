@@ -41,9 +41,9 @@ description: Cucurriculum Vitae
 <h4> Professional Services </h4>
 
 * Conference reviewer
-  * UAI'19, AISTATS'19, NeurIPS('19-'17,'15), ICML('19-'18),
+  * UAI'19, AISTATS'19, NeurIPS('19-'17,'15), ICML('20-'18),
     AAAI('20-'17), IJCAI('19-'18),
-    ACML('19-'17), WACV('20-'15), IJCNN('16-'15), PRICAI
+    ACML('20-'17), WACV('20-'15), IJCNN('16-'15), PRICAI
 * Journal reviewer (last three years)
   * IEEE TIP, IEEE ACCESS, IEEE TPAMI, IEEE TMM, IEEE TCYB,
     Digital Signal Processing, Patten Recognition
